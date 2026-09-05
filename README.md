@@ -59,10 +59,6 @@ Web test automation project developed using Java, Selenium WebDriver, Cucumber a
 - Improving test automation architecture and best practices
 - Expanding my knowledge of CI/CD and automated test pipelines
 
----
 
-### Contact
-
-[LinkedIn](www.linkedin.com/in/felipe-kanegae)
 
 
