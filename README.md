@@ -39,15 +39,15 @@ Software Quality professional with experience since 2015, working with manual an
 
 #### Automation Exercise - Web Test Automation
 
-Web test automation project developed using Java, Selenium WebDriver, Cucumber and Maven.
+Web test automation project developed using Java, Selenium WebDriver, Cucumber, Maven, and the Page Object Model pattern.
 
-**Key features:**
-- Web test automation with Selenium WebDriver
-- BDD scenarios with Cucumber
-- Page Object Model
-- Test data management with Apache POI
-- Explicit waits and reusable components
-- Functional and regression test scenarios
+**Highlights:**
+- Functional Web test automation with Selenium WebDriver
+- BDD scenarios written in Gherkin with Cucumber
+- Page Object Model and PageFactory
+- External test data management with Excel and Apache POI
+- Explicit waits for synchronization
+- Automated scenarios covering login, product search, shopping cart, reviews, and checkout validation
 
 [View Repository](https://github.com/Felipekanegae/automation-exercise-web-tests)
 
@@ -55,9 +55,9 @@ Web test automation project developed using Java, Selenium WebDriver, Cucumber a
 
 ### Currently Learning
 
-- Advanced API test automation practices
 - Improving test automation architecture and best practices
 - Expanding my knowledge of CI/CD and automated test pipelines
+- Exploring additional test automation tools and frameworks
 
 
 
