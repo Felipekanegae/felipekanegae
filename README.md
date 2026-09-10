@@ -51,6 +51,21 @@ Web test automation project developed using Java, Selenium WebDriver, Cucumber, 
 
 [View Repository](https://github.com/Felipekanegae/automation-exercise-web-tests)
 
+#### Automation Exercise - API Test Automation
+
+API test automation project developed using Java, REST Assured, JUnit 5, Maven, and Apache POI.
+
+**Highlights:**
+- REST API test automation with REST Assured
+- HTTP methods validation including GET, POST, PUT, and DELETE
+- Response status code and JSON body validation
+- Request parameters and form data handling
+- JSON response parsing with JsonPath
+- External test data management with Excel and Apache POI
+- Positive and negative API test scenarios
+
+[View Repository](https://github.com/Felipekanegae/automation-exercise-api-tests)
+
 ---
 
 ### Currently Learning
