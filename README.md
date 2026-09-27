@@ -14,7 +14,9 @@ Software Quality professional with experience since 2015, working with manual an
 
 #### Test Automation
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" width="45" /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cucumber/cucumber-plain.svg" width="45" /><img src="https://img.shields.io/badge/REST%20Assured-43B02A?style=for-the-badge&logo=java&logoColor=white" height="25" /><img src="https://img.shields.io/badge/Appium-662D91?style=for-the-badge&logo=appium&logoColor=white" height="25" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" width="45" /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cucumber/cucumber-plain.svg" width="45" /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg" width="55" />
+
+<img src="https://img.shields.io/badge/REST%20Assured-43B02A?style=for-the-badge&logo=java&logoColor=white" height="25" /><img src="https://img.shields.io/badge/Appium-662D91?style=for-the-badge&logo=appium&logoColor=white" height="25" />
 
 #### API Testing
 
@@ -65,6 +67,21 @@ API test automation project developed using Java, REST Assured, JUnit 5, Maven, 
 - Positive and negative API test scenarios
 
 [View Repository](https://github.com/Felipekanegae/automation-exercise-api-tests)
+
+#### SauceDemo - Playwright Web Test Automation
+
+Web test automation project under development using Java, Playwright, Cucumber, Maven, and the Page Object Model pattern.
+
+**Highlights:**
+- Web test automation with Playwright
+- BDD scenarios written in Gherkin with Cucumber
+- Page Object Model architecture
+- Dependency injection with PicoContainer
+- External test data management with Excel and Apache POI
+- Playwright auto-waiting and web-first assertions
+- Login, product, cart, and checkout scenarios under development
+
+[View Repository](https://github.com/Felipekanegae/saucedemo-playwright-tests)
 
 #### My Demo App - Mobile Test Automation
 
