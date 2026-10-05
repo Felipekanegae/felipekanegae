@@ -70,16 +70,18 @@ API test automation project developed using Java, REST Assured, JUnit 5, Maven, 
 
 #### SauceDemo - Playwright Web Test Automation
 
-Web test automation project under development using Java, Playwright, Cucumber, Maven, and the Page Object Model pattern.
+Web test automation project developed using Java, Playwright, Cucumber, Maven, and the Page Object Model pattern.
 
 **Highlights:**
 - Web test automation with Playwright
+- 15 automated test scenarios covering login, products, cart, and checkout flows
 - BDD scenarios written in Gherkin with Cucumber
 - Page Object Model architecture
 - Dependency injection with PicoContainer
+- Dynamic locators for reusable product interactions
 - External test data management with Excel and Apache POI
 - Playwright auto-waiting and web-first assertions
-- Login, product, cart, and checkout scenarios under development
+- Full regression suite execution with Maven
 
 [View Repository](https://github.com/Felipekanegae/saucedemo-playwright-tests)
 
