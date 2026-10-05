@@ -106,7 +106,8 @@ Mobile test automation project developed using Java, Appium, Cucumber, Maven, an
 
 - Improving test automation architecture and best practices
 - Expanding my knowledge of CI/CD and automated test pipelines
-- Exploring additional test automation tools and frameworks
+- Developing mobile test automation skills with Appium
+- Expanding Playwright knowledge and preparing to explore TypeScript
 
 
 
