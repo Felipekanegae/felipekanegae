@@ -27,3 +27,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_stats.py
+
+      - name: Publish GitHub Stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/github-stats.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+          else
+            git commit -m "chore: update GitHub stats"
+            git push
+          fi
+    
