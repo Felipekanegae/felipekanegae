@@ -24,5 +24,6 @@ jobs:
           python-version: "3.12"
 
       - name: Collect GitHub repositories
-        env:  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run:  python scripts/generate_stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_stats.py
