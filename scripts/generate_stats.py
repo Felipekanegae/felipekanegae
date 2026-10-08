@@ -115,7 +115,7 @@ def get_total_commits(repositories):
 
 def generate_svg(repositories_count, commits_count):
     svg = f"""
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="220" viewBox="0 0 500 220">
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="235" viewBox="0 0 500 235">
     <rect width="500" height="235" rx="12" fill="#1a1b27"
       stroke="#e4e2e2" stroke-width="1"/>
 
