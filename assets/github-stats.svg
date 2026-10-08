@@ -1,7 +1,7 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="220" viewBox="0 0 500 220">
-    <rect width="500" height="220" rx="12" fill="#1a1b27"
-          stroke="#70a5fd" stroke-width="1"/>
+    <rect width="500" height="235" rx="12" fill="#1a1b27"
+      stroke="#e4e2e2" stroke-width="1"/>
 
     <text x="30" y="45"
           font-family="Arial, sans-serif"
@@ -20,7 +20,7 @@
           font-family="Arial, sans-serif"
           font-size="24" font-weight="bold"
           text-anchor="end" fill="#bf91f3">
-        117
+        119
     </text>
 
     <text x="30" y="160"
