@@ -108,7 +108,11 @@ Mobile test automation project developed using Java, Appium, Cucumber, Maven, an
 - Expanding my knowledge of CI/CD and automated test pipelines
 - Developing mobile test automation skills with Appium
 - Expanding Playwright knowledge and preparing to explore TypeScript
+  
 
+### 📊 GitHub Stats
+
+![Felipe's GitHub Stats](assets/github-stats.svg)
 
 
 
