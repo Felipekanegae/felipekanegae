@@ -112,7 +112,10 @@ Mobile test automation project developed using Java, Appium, Cucumber, Maven, an
 
 ### 📊 GitHub Stats
 
-![Felipe's GitHub Stats](assets/github-stats.svg)
+<p align="left">
+  <img src="assets/github-stats.svg" width="340" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Felipekanegae&layout=compact&theme=tokyonight" width="320" />
+</p>
 
 
 
