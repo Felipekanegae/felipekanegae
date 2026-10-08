@@ -1,7 +1,9 @@
 import json
 import urllib.request
+import os
 
 USERNAME = "Felipekanegae"
+TOKEN = os.environ.get("GITHUB_TOKEN")
 
 def get_repositories():
     repositories = []
@@ -13,13 +15,15 @@ def get_repositories():
             f"?per_page=100&page={page}&type=owner"
         )
 
-        request = urllib.request.Request(
-            url,
-            headers={
-                "Accept": "application/vnd.github+json",
-                "User-Agent": "github-profile-stats"
-            }
-        )
+        headers = {
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "github-profile-stats"
+        }
+
+        if TOKEN:
+            headers["Authorization"] = f"Bearer {TOKEN}"
+
+        request = urllib.request.Request(url, headers=headers)
 
         with urllib.request.urlopen(request) as response:
             data = json.load(response)
