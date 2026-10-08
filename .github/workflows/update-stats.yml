@@ -8,7 +8,7 @@ on:
       - "scripts/**"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   update-stats:
