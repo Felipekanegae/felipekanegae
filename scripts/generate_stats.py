@@ -113,6 +113,53 @@ def get_total_commits(repositories):
     return total_commits
 
 
+def generate_svg(repositories_count, commits_count):
+    svg = f"""
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="220" viewBox="0 0 500 220">
+    <rect width="500" height="220" rx="12" fill="#1a1b27"
+          stroke="#70a5fd" stroke-width="1"/>
+
+    <text x="30" y="45"
+          font-family="Arial, sans-serif"
+          font-size="24" font-weight="bold"
+          fill="#70a5fd">
+        Felipe's GitHub Stats
+    </text>
+
+    <text x="30" y="105"
+          font-family="Arial, sans-serif"
+          font-size="18" fill="#38bdae">
+        Total Commits
+    </text>
+
+    <text x="460" y="105"
+          font-family="Arial, sans-serif"
+          font-size="24" font-weight="bold"
+          text-anchor="end" fill="#bf91f3">
+        {commits_count}
+    </text>
+
+    <text x="30" y="160"
+          font-family="Arial, sans-serif"
+          font-size="18" fill="#38bdae">
+        Public Repositories
+    </text>
+
+    <text x="460" y="160"
+          font-family="Arial, sans-serif"
+          font-size="24" font-weight="bold"
+          text-anchor="end" fill="#bf91f3">
+        {repositories_count}
+    </text>
+</svg>
+"""
+
+    with open("assets/github-stats.svg", "w", encoding="utf-8") as file:
+        file.write(svg)
+
+    print("SVG generated successfully!")
+    
+
 def main():
     repositories = get_repositories()
 
@@ -126,6 +173,7 @@ def main():
 
     print(f"Repositories: {len(repositories)}")
     print(f"Total commits: {total_commits}")
+    generate_svg(len(repositories), total_commits)
 
 
 if __name__ == "__main__":
