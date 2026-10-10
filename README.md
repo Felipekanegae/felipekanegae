@@ -39,66 +39,30 @@ Software Quality professional with experience since 2015, working with manual an
 
 ### Featured Projects
 
-#### Automation Exercise - Web Test Automation
+#### 🌐 Web Test Automation
 
-Web test automation project developed using Java, Selenium WebDriver, Cucumber, Maven, and the Page Object Model pattern.
+**Selenium**
 
-**Highlights:**
-- Functional Web test automation with Selenium WebDriver
-- BDD scenarios written in Gherkin with Cucumber
-- Page Object Model and PageFactory
-- External test data management with Excel and Apache POI
-- Explicit waits for synchronization
-- Automated scenarios covering login, product search, shopping cart, reviews, and checkout validation
+[Automation Exercise - Web Test Automation](https://github.com/Felipekanegae/automation-exercise-web-tests)
+[![Selenium Tests](https://github.com/Felipekanegae/automation-exercise-web-tests/actions/workflows/maven.yml/badge.svg)](https://github.com/Felipekanegae/automation-exercise-web-tests/actions/workflows/maven.yml)
 
-[View Repository](https://github.com/Felipekanegae/automation-exercise-web-tests)
+**Playwright**
 
-#### Automation Exercise - API Test Automation
+[SauceDemo - Playwright Web Test Automation](https://github.com/Felipekanegae/saucedemo-playwright-tests)
+[![Playwright Tests](https://github.com/Felipekanegae/saucedemo-playwright-tests/actions/workflows/maven.yml/badge.svg)](https://github.com/Felipekanegae/saucedemo-playwright-tests/actions/workflows/maven.yml)
 
-API test automation project developed using Java, REST Assured, JUnit 5, Maven, and Apache POI.
+#### 🔌 API Test Automation
 
-**Highlights:**
-- REST API test automation with REST Assured
-- HTTP methods validation including GET, POST, PUT, and DELETE
-- Response status code and JSON body validation
-- Request parameters and form data handling
-- JSON response parsing with JsonPath
-- External test data management with Excel and Apache POI
-- Positive and negative API test scenarios
+**REST Assured**
 
-[View Repository](https://github.com/Felipekanegae/automation-exercise-api-tests)
+[Automation Exercise - API Test Automation](https://github.com/Felipekanegae/automation-exercise-api-tests)
+[![API Tests](https://github.com/Felipekanegae/automation-exercise-api-tests/actions/workflows/maven.yml/badge.svg)](https://github.com/Felipekanegae/automation-exercise-api-tests/actions/workflows/maven.yml)
 
-#### SauceDemo - Playwright Web Test Automation
+#### 📱 Mobile Test Automation
 
-Web test automation project developed using Java, Playwright, Cucumber, Maven, and the Page Object Model pattern.
+**Appium**
 
-**Highlights:**
-- Web test automation with Playwright
-- 15 automated test scenarios covering login, products, cart, and checkout flows
-- BDD scenarios written in Gherkin with Cucumber
-- Page Object Model architecture
-- Dependency injection with PicoContainer
-- Dynamic locators for reusable product interactions
-- External test data management with Excel and Apache POI
-- Playwright auto-waiting and web-first assertions
-- Full regression suite execution with Maven
-
-[View Repository](https://github.com/Felipekanegae/saucedemo-playwright-tests)
-
-#### My Demo App - Mobile Test Automation
-
-Mobile test automation project developed using Java, Appium, Cucumber, Maven, and the Page Object Model pattern.
-
-**Highlights:**
-- Native Android test automation with Appium and UiAutomator2
-- BDD scenarios written in Gherkin with Cucumber
-- Page Object Model architecture
-- Dependency injection with PicoContainer
-- External test data management with Excel and Apache POI
-- Explicit waits for mobile element synchronization
-- Mobile test scenarios covering authentication, with product, shopping cart, and checkout flows under development
-
-[View Repository](https://github.com/Felipekanegae/my-demo-app-mobile-tests)
+[My Demo App - Mobile Test Automation](https://github.com/Felipekanegae/my-demo-app-mobile-tests)
 
 ---
 
