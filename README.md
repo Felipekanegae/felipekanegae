@@ -63,6 +63,7 @@ Software Quality professional with experience since 2015, working with manual an
 **Appium**
 
 [My Demo App - Mobile Test Automation](https://github.com/Felipekanegae/my-demo-app-mobile-tests)
+[![Appium Tests](https://github.com/Felipekanegae/my-demo-app-mobile-tests/actions/workflows/maven.yml/badge.svg)](https://github.com/Felipekanegae/my-demo-app-mobile-tests/actions/workflows/maven.yml)
 
 ---
 
